@@ -1,5 +1,5 @@
 class Person
-  def initialize(name)
+  def initialize(this_persons_name)
     @name=(this_persons_name)
   end
   attr_accessor :name
