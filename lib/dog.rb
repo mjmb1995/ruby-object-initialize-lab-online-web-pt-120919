@@ -4,3 +4,11 @@ class Person
   end
   attr_accessor :name
 end
+
+class Dog
+  def initialize(this_dogs_name, this_dogs_breed)
+    @name=(this_dogs_name)
+    @breed=(this_dogs_breed)
+  end
+  attr_accessor :name :breed
+end
