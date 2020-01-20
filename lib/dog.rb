@@ -6,7 +6,7 @@ class Person
 end
 
 class Dog
-  def initialize(this_dogs_name, this_dogs_breed)
+  def initialize(this_dogs_name, this_dogs_breed = Mutt)
     @name=(this_dogs_name)
     @breed=(this_dogs_breed)
   end
